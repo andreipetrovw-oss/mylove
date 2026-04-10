@@ -208,7 +208,7 @@ function mvno(){
     noBtn.style.left='50%';noBtn.style.top='72%';
     noBtn.style.transform='translateX(-50%)';
     noBtn.style.transition='left .3s,top .3s';
-    document.getElementById('nohint').textContent='Поймала! Ну давай, жми... 😏';
+    document.getElementById('nohint').textContent='Поймала! Ну давай, жми... 😘';
     return;
   }
   const rx=20+Math.random()*(window.innerWidth-130);
@@ -237,11 +237,11 @@ function showReaction(type){
   const btn=document.getElementById('reactBtn');
   if(type==='no'){
     img.src=SAD_IMG;
-    txt.textContent='Неправильный ответ... котик расстроен 🥺';
+    txt.textContent='Неправильный ответ... теперь грусни 🥺';
     btn.textContent='Ладно, да... 💕';
   } else {
     img.src=HAPPY_IMG;
-    txt.textContent='Правильный ответ! Котик счастлив! 🎉';
+    txt.textContent='Правильный ответ! Довольни! 🎉';
     btn.textContent='Получить подарок 🎁';
   }
   ov.style.display='flex';
